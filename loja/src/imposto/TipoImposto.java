@@ -1,4 +1,4 @@
-package imposto;
+package loja.src.imposto;
 
 public enum TipoImposto {
     ICMS,

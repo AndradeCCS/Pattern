@@ -1,6 +1,6 @@
-package imposto;
+package loja.src.imposto;
 
-import orcamento.Orcamento;
+import loja.src.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
@@ -12,7 +12,7 @@ public class CalculadoraDeImposto {
                 return orcamento.getValor().multiply(new BigDecimal("0.1"));
 
             case ISS:
-                return orcamento.getValor().multiply(new BigDecimal("0.06"));
+                return orcamento.getValor().multiply(new BigDecimal("0.05"));
 
             default:
                 return BigDecimal.ZERO;

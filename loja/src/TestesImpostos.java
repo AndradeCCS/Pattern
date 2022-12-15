@@ -1,6 +1,8 @@
-import imposto.CalculadoraDeImposto;
-import imposto.TipoImposto;
-import orcamento.Orcamento;
+package loja.src;
+
+import loja.src.imposto.CalculadoraDeImposto;
+import loja.src.imposto.TipoImposto;
+import loja.src.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
